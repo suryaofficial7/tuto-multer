@@ -10,3 +10,11 @@ inside Form
   <input type="file" name="avatar" />
 </form>
 ```
+
+Inside index.js Files
+  dest means Destination
+```
+const multer  = require('multer')
+const upload = multer({ dest: 'uploads/' })
+```
+
